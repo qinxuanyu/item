@@ -1,0 +1,166 @@
+
+.head{
+	width: 7.5rem;
+	position: absolute;
+	top: .2rem;
+	font-size: 0;
+	text-align: center;
+}
+.head div{
+	display: inline-block;
+	position: relative;
+}
+.head div i{
+	font-size: .28rem;
+	color: #daeaf6;
+	line-height: .56rem;
+	position: absolute;
+	left: .2rem;
+}
+.head div input{
+	width: 5rem;
+	height: .5rem;
+	font-size: .26rem;
+	border: 0;
+	border-radius: .26rem;
+	box-sizing: border-box;
+	opacity: .5;
+	padding-left: .6rem;
+}
+.head a{
+	font-size: .26rem;
+	color: #fff;
+	line-height: .56rem;
+	position: absolute;
+	right: .24rem;
+}
+.banner{
+	width: 7.5rem;
+	margin: 0 auto;
+}
+.banner img{
+	width: 100%;
+	vertical-align: bottom;
+}
+.nav{
+	width: 7.5rem;
+	font-size: 0;
+	padding-bottom: .24rem;
+	border-bottom: 1px solid #bebebe;
+	margin: 0 auto;
+}
+.nav li{
+	width: 25%;
+	font-size: .24rem;
+	text-align: center;
+	display: inline-block;
+}
+.nav a{
+	color: #5d5d5d;
+}
+.nav img{
+	width: .98rem;
+	padding: .4rem .35rem 0;
+	box-sizing: initial;
+	vertical-align: bottom;
+}
+.con{
+	width: 7.5rem;
+	margin:0 auto 1.2rem;
+}
+.con .hd{
+	height: .72rem;
+	font-size: 0;
+	position: relative;
+}
+.con .hd .title{
+	font-size: .26rem;
+	font-weight: 400;
+	color: #272727;
+	line-height: .72rem;
+	padding-left: .45rem;
+	position: relative;
+}
+.con .hd .title:before{
+	content: " ";
+	display:block;
+	width: .06rem;
+	height: .28rem;
+	background: #3ea5de;
+	position: absolute;
+	left: .24rem;
+	top: .23rem;
+}
+.con .hd .more{
+	font-size: .18rem;
+	color: #3ea5de;
+	position: absolute;
+	right: .24rem;
+	top: .3rem;
+}
+.con .bd{
+	width: 100%;
+	padding: 0 .24rem;
+	overflow: hidden;
+}
+.con .bd>div{
+	float: left;
+	margin-top: .08rem;
+	position: relative;
+}
+.yunyou-s{
+	width: 49%;
+}
+.yunyou-s img,.yunyou-b img{
+	width: 100%;
+	vertical-align: bottom;
+}
+.yunyou-s .theme{
+	color: #fff;
+	text-align: center;
+	position: absolute;
+	top: .9rem;
+	left: .9rem;
+}
+.yunyou-s .title{
+	font-size: .26rem;
+}
+.yunyou-s .line{
+	width: 1.7rem;
+	border-bottom: 1px solid #fff;
+	margin:.13rem auto .1rem;
+}
+.yunyou-s .desc{
+	font-size: .18rem;
+}
+.yunyou-mleft{
+	margin-left: .08rem;
+}
+.yunyou-b{
+	width: 99%;
+}
+.yunyou-b .scen{
+	width: .7rem;
+	height: .76rem;
+	background: #f6fafe;
+	font-size: .18rem;
+	letter-spacing: .04rem;
+	line-height: .24rem;
+	color: #2c2c2c;
+	padding: .15rem .12rem;
+	position: absolute;
+	top: 0;
+	left: .48rem;
+}
+.yunyou-b .theme{
+	width: 100%;
+	font-size: .32rem;
+	color: #fff;
+	text-align: center;
+	position: absolute;
+	top: .9rem;
+}
+.yunyou-b .desc{
+	font-size: .2rem;
+	padding-top: .1rem;
+}

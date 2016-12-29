@@ -1,0 +1,121 @@
+
+/*-----------------main content-------------------------*/
+.main-container{z-index: 2;overflow: hidden;}
+.feature{
+    margin-bottom: 30px;
+    text-align: center;
+}
+.feature .icon{
+    border-radius: 50%;
+    display: block;
+    width: 96px;
+    height: 96px;
+    line-height: 96px;
+    font-size: 32px;
+    margin: 0 auto 30px;
+    color: #ff5555;
+    border: solid 1px #ff5555;
+    transition:all 0.5s ease-in-out;
+}
+.feature .title{
+    margin-bottom: 30px;
+    transition:all 0.5s ease-in-out;
+}
+.feature .desc{
+    margin-bottom: 30px;
+}
+.feature:hover .icon{
+	color: #fff;
+	background-color: #F55;
+}
+.feature:hover .title{
+	color: #f55;
+}
+.mtop{
+	margin-top: 50px;
+}
+.collapsed .collapse-icon{
+	transform: none;
+}
+.collapse-icon{
+	transition: all 0.5s ease-in-out;
+	transform: rotate(180deg);
+	float: right;
+}
+.panel-group .panel-theme+.panel-theme{
+    margin-top: -1px;
+    border-radius: 0;
+}
+.panel.panel-theme{
+	border: 1px solid #eee;
+}
+.panel.panel-theme .panel-heading{
+	padding: 0;
+}
+.panel.panel-theme .panel-heading a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	padding: 10px 15px;	
+}
+.panel.panel-theme .panel-heading a:not(.collapsed){
+    color: #fff;
+    background: #ff5555;
+}
+.more-feature{
+    margin-bottom: 30px;
+}
+.more-feature .media-left{
+    padding-top: 1px 10px 1px 0;
+}
+.more-feature .icon{
+    transition: all 0.2s ease-in-out;
+    font-size: 32px;
+    margin-right: 15px;
+}
+.more-feature .title{
+	transition: all 0.2s ease-in-out;
+    margin-bottom: 10px;
+}
+.more-feature:hover .icon,.more-feature:hover .title{
+	color: #f55;
+}
+.clients{
+	margin-bottom: 30px;
+}
+.clients .item{
+    line-height: 70px;
+    text-align: center;
+    vertical-align: middle;
+}
+.clients .owl-controls{
+    position: absolute;
+    top: -75px;
+    right: 5px;
+    text-align: center;
+}
+.clients .owl-controls .owl-buttons div{
+    transition: all 0.3s ease-in-out;
+    width: 32px;
+    height: 32px;
+    line-height: 26px;
+    opacity: .9;
+    background: #f55;
+    border-radius: 4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

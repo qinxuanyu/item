@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+    	<meta name="viewport" content="width=device-width,initial-scale=1.0, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0">
+		<title></title>
+	    <link rel="stylesheet" href="css/mobile-reset.css">
+    	<link rel="stylesheet" href="css/location.css" />
+    	<style>
+    	@font-face {
+					  font-family: 'iconfont';
+					  src: url('font/iconfont.eot');
+					  src: url('font/iconfont.eot?#iefix') format('embedded-opentype'),
+					  url('font/iconfont.woff') format('woff'),
+					  url('font/iconfont.ttf') format('truetype'),
+					  url('font/iconfont.svg#iconfont') format('svg');
+					}
+    		.iconfont{
+					  font-family:"iconfont" !important;
+					  font-size:16px;font-style:normal;
+					  -webkit-font-smoothing: antialiased;
+					  -webkit-text-stroke-width: 0.2px;
+					  -moz-osx-font-smoothing: grayscale;
+					}
+    </style>
+	<script src="js/jquery-1.9.1.min.js"></script>
+    <script src="js/base.js"></script>
+	</head>
+	<body>
+		<div class="header">
+			<div class="navigation-bar">
+				<p>登陆
+					<a href="lead.html" class="reback"><i class="iconfont"/>&#xe65c;</i></a>
+				</p>
+			</div>
+		</div>
+		<div class="location-logo">
+			<div class="logo-img">
+				<img src="img/logo.png" alt=""/>
+			</div>
+			<p>下一站</p>
+		</div>
+		<div class="landing-bar">
+			<div class="landing-container">
+				<div class="landing-name">
+					<i class="iconfont">&#xe619;</i>
+					<input type="text" value="" class="txt" placeholder="15142388574" id="btn1"/>
+				</div>
+				<div class="landing-key">
+					<i class="iconfont">&#xe692;</i>
+					<input type="password"  value="" placeholder="121554" class="txt" id="btn2"/>
+				</div>
+				<div class="landing-text">
+					<a href="register.html">注册</a>
+					<a href="">忘记密码</a>
+				</div>
+				<div class="landing-active">
+					<a id="alink"><input type="submit" name="" value="登陆" id="btn3" /></a>
+				</div>
+				<div class="landing-other">第三方登陆</div>
+				<div class="other-logo">
+					<div class="logo-container">
+						<a href="#"class="other-img"><i class="iconfont">&#xe603;</i></a>
+						<a href="#"class="other-img"><i class="iconfont">&#xe606;</i></a>
+						<a href="#"class="other-img"><i class="iconfont">&#xe60a;</i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer-img">
+			<img src="img/locationbackgroud.jpg" alt="" />
+		</div>
+		
+		<script>
+			setTimeout(function(){
+				document.getElementsByTagName("body")[0].style.height=window.innerHeight+"px";
+			});
+			var btn1=document.getElementById("btn1");
+			var btn2=document.getElementById("btn2");
+			var btn3=document.getElementById("btn3");
+			var alink=document.getElementById("alink")
+			
+			function test(btnId)
+			{
+				btnId.onfocus=function()
+				{
+					this.placeholder="";
+				}
+			};
+			test(btn1);
+			test(btn2);
+			alink.onclick=function()
+			{
+				function myfunction(btnId)
+				{	
+//					btnId.onblur=function()
+//					{
+						var x=btn1.value;
+						var y=btn2.value;
+						var a=true;
+						if(x==""||y=="")
+						{
+							alert("账户名或密码不能为空");
+							a=false;
+						}
+						else if(x=="123456"&&y=="123456")
+						{
+							a=true;
+							window.location.href="home.html";
+						}
+						else
+						{
+							alert("用户名或密码错误");
+							a=false;	
+						}
+						return a;
+//					}
+				}
+				myfunction(btn2);
+			}
+			
+		</script>
+	</body>
+</html>

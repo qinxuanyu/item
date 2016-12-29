@@ -1,0 +1,39 @@
+.top-hd{
+	height: .9rem;
+	background: #3ea5de;
+}
+.head{
+	width: 7.5rem;
+	position: absolute;
+	top: .2rem;
+	font-size: 0;
+	text-align: center;
+}
+.head div{
+	display: inline-block;
+	position: relative;
+}
+.head div i{
+	font-size: .28rem;
+	color: #daeaf6;
+	line-height: .56rem;
+	position: absolute;
+	left: .2rem;
+}
+.head div input{
+	width: 5rem;
+	height: .5rem;
+	font-size: .26rem;
+	border: 0;
+	border-radius: .26rem;
+	box-sizing: border-box;
+	opacity: .5;
+	padding-left: .6rem;
+}
+.head a{
+	font-size: .26rem;
+	color: #fff;
+	line-height: .56rem;
+	position: absolute;
+	left: 0;
+}

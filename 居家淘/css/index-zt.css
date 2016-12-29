@@ -1,0 +1,65 @@
+.con
+{
+	width: 7.5rem;
+	margin: .92rem auto 0;
+	overflow: hidden;
+}
+.con a
+{
+	display: block;
+	padding-top: .21rem;
+}
+.con img
+{
+	width: 100%;
+	vertical-align: bottom;
+}
+.info
+{
+	background: #fff;
+	overflow: hidden;
+	text-align: center;
+}
+.info .title
+{
+	margin-top: .4rem;
+	font-size: .26rem;
+	color: #333;
+}
+.info .title2
+{
+	margin-top: .16rem;
+	margin-bottom: .2rem;
+	font-size: .18rem;
+	color: #999;
+}
+.info .title2>span
+{
+	position: relative;
+}
+.info .title2>span:before,.info .title2>span:after
+{
+	content: "";
+    position: absolute;
+    width: .22rem;
+    height: .22rem;
+    display: inline-block;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.info .title2>span:before
+{
+	background-image: url(../img/5d625a22f54deabe5fa4a80ec5a5000c.png);
+	left: -.3rem;
+}
+.info .title2>span:after
+{
+    background-image: url(../img/6f0430c2845a90fab3b5cb5045112c13.png);
+    right: -.3rem;
+}
+.info .price
+{
+	font-size: .2rem;
+	color: #b4282d;
+	margin-bottom: .36rem;
+}

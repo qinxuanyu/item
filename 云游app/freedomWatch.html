@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="css/mobile-reset.css">
+    <link rel="stylesheet" href="css/freedomWatch.css" />
+    <style>
+    	@font-face {
+					  font-family: 'iconfont';
+					  src: url('font/iconfont.eot');
+					  src: url('font/iconfont.eot?#iefix') format('embedded-opentype'),
+					  url('font/iconfont.woff') format('woff'),
+					  url('font/iconfont.ttf') format('truetype'),
+					  url('font/iconfont.svg#iconfont') format('svg');
+					}
+    		.iconfont{
+					  font-family:"iconfont" !important;
+					  font-size:16px;font-style:normal;
+					  -webkit-font-smoothing: antialiased;
+					  -webkit-text-stroke-width: 0.2px;
+					  -moz-osx-font-smoothing: grayscale;
+					}
+    </style>
+	<script src="js/jquery-1.9.1.min.js"></script>
+    <script src="js/base.js"></script>
+    <script type="text/javascript">
+    	
+   		document.addEventListener('plusready', function(){
+   			//console.log("所有plus api都应该在此事件发生后调用，否则会出现plus is undefined。"
+   			
+   		});
+   		
+    </script>
+</head>
+<body>
+	<div class="banner">
+		<div class="banner-img">
+			<img src="img/1.jpg" alt="" />
+		</div>
+		<div class="navigation-bar">
+			<p>随便看看
+				<a href="lead.html" class="reback"><i class="iconfont">&#xe65c;</i></a>
+				<div class="search">
+					<!--<input type="text" id="" />-->
+					<a href="http://www.baidu.com"><i class="iconfont">&#xe604;</i></a>
+				</div>
+				<a href="" class="addmore"><i class="iconfont">&#xe612;</i></a>
+			</p>
+		</div>
+	</div>
+	<div class="conTitle">
+		<div class="titleBox">
+			<span></span>
+			<span class="title-text">达人分享</span>
+			<span></span>
+		</div>
+	</div>
+	<div class="con">
+		<div class="container">
+			<div class="con-img">
+				<a href="#">
+					<div class="gallery-img">
+						<img src="img/2.jpg" alt="" />
+					</div>
+				</a>
+				<p class="con-title">悉尼你还错过了哪些美景！</p>
+				<div class="user-comment">
+					<p class="user">
+						<span class="user-pic">
+							<img src="img/user.png" alt="" />
+						</span>
+						<span class="user-name">奋斗青年de羊</span>
+					</p>
+					<div class="comment">
+						<p class="lovers">
+							<i class="iconfont clickeable">&#x3432;</i>
+							<span class="lnum">1673</span>
+						</p>
+						<p class="remark">
+							<i class="iconfont clicked">&#xe6ac;</i>
+							<span class="tnum">1610</span>
+							<div class="box">
+								<div class="box-talk">
+									<input type="text" />
+									<div class="angle"></div>
+								</div>
+						    </div>
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="con-img">
+				<a href="#">
+					<div class="gallery-img">
+						<img src="img/3.jpg" alt="" />
+					</div>
+				</a>
+				<p class="con-title">此时此刻，不容错过，美丽巴厘岛！</p>
+				<div class="user-comment">
+					<p class="user">
+						<span class="user-pic">
+							<img src="img/user.png" alt="" />
+						</span>
+						<span class="user-name">奋斗青年de羊</span>
+					</p>
+					<div class="comment">
+						<p class="lovers">
+							<i class="iconfont clickeable">&#x3432;</i>
+							<span class="lnum">1673</span>
+						</p>
+						<p class="remark">
+							<i class="iconfont clicked">&#xe6ac;</i>
+							<span  class="tnum">1610</span>
+							<div class="box">
+								<div class="box-talk">
+									<div class="angle"></div>
+									<input type="text" />
+								</div>
+						    </div>
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="con-img">
+				<a href="#">
+					<div class="gallery-img">
+						<img src="img/5.jpg" alt="" />
+					</div>
+				</a>
+				<p class="con-title">醉美人间天堂！大溪地！</p>
+				<div class="user-comment">
+					<p class="user">
+						<span class="user-pic">
+							<img src="img/user.png" alt="" />
+						</span>
+						<span class="user-name">奋斗青年de羊</span>
+					</p>
+					<div class="comment">
+						<p class="lovers">
+							<i class="iconfont clickeable">&#x3432;</i>
+							<span class="lnum">3673</span>
+						</p>
+						<p class="remark">
+							<i class="iconfont clicked">&#xe6ac;</i>
+							<span class="tnum">7610</span>
+							<div class="box">
+								<div class="box-talk">
+									<div class="angle"></div>
+									<input type="text" />
+								</div>
+						    </div>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script>	
+		$(".clickeable").click(function(){
+		    var num=parseInt($(this).next().text());
+			num++;
+			$(this).next().text(num);
+		});
+		var x;
+		var a=true;
+		$(".con-img").hover(function(){
+			x=$(this).index();
+			$(".clicked").click(function(){
+				if(a)
+				{
+				    var num=parseInt($(this).next().text());
+					num++;
+					$(this).next().text(num);
+					$(".box").eq(x).css({display:"block"});
+					a=false;
+				}
+				else
+				{
+					$(".box").eq(x).css({"display":"none"});
+					a=true;
+				}
+   			});
+		})
+
+
+
+	</script>
+</body>
+</html>

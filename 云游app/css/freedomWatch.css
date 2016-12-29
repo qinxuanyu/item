@@ -1,0 +1,248 @@
+*{margin:0;padding:0;}
+a{text-decoration: none;}
+li{list-style: none;}
+
+.banner
+{
+	width:100%;
+	overflow:hidden;
+	position:relative;
+}
+.banner-img
+{
+	/*width:100%;*/
+	height:4.2rem;
+}
+.banner-img img
+{
+	width:100%;
+	height:100%;
+}
+.navigation-bar
+{
+	width:100%;
+	z-index:10;
+	position: absolute;
+	line-height:0.6rem;
+	left:0;
+	top:0.4rem;
+}
+.navigation-bar p
+{
+	text-align: center;
+	font-size:0.36rem;
+	color:#fff;
+	position:relative;
+}
+.reback
+{
+	position:absolute;
+	left:0.2rem;
+	display: block;
+	top:0;
+	color:#fff;
+}
+
+
+.search
+{
+	position:absolute;
+	top: 0;
+	right: 1rem;
+	font-size:0.36rem;
+	color:#fff;
+}
+.search input
+{  
+	outline: none;
+	border:none;
+	width:1rem;
+	opacity:0.5;
+	background:#5abffa;
+}
+.search a
+{
+	color: #fff;
+}
+
+.addmore
+{
+	position:absolute;
+	right:0.2rem;
+	top:0;
+	display: block;
+	font-size:0.36rem;
+	color:#fff;
+}
+
+
+
+
+
+.conTitle
+{
+	width:100%;
+	
+}
+.titleBox
+{
+	width:60%;
+	height:0.8rem;
+	margin:0 auto;	
+}
+.titleBox span
+{
+	width:30%;
+	display:block;
+	float:left;
+}
+.title-text
+{
+	height:100%;
+	font-size:0.3rem;
+	color:#3ea5de;
+	line-height:0.8rem;
+	margin:0 5%;
+}
+.titleBox>span:nth-child(1),.titleBox>span:nth-child(3)
+{
+	border-bottom:0.02rem solid #addffc;
+	margin-top:0.39rem;
+}
+.con
+{
+	width:100%;
+}
+.container
+{
+	width:93.6%;
+	margin:0 auto;
+}
+.con-img
+{
+	position:relative;
+	margin-bottom:0.15rem;
+}
+.con-img a
+{
+	display: block;
+}
+.gallery-img
+{
+	width:100%;
+	height:3.3rem;
+}
+.gallery-img img
+{
+	width:100%;
+	height:100%;
+}
+.con-title
+{
+	position:absolute;
+	left:0.2rem;
+	top:0.2rem;
+	height:0.4rem;
+	line-height: 0.4rem;
+	font-size:0.33rem;
+	color:#fff;
+}
+.user-comment
+{
+	position:absolute;
+	left:0.2rem;
+	bottom:0.1rem;
+	width:96%;
+	height:0.5rem;
+	line-height:0.5rem;
+}
+.user
+{
+	float:left;
+	line-height:0.5rem;
+	font-size:0.2rem;
+	color: #fff;
+}
+.user-pic
+{
+	width:0.5rem;
+	height:0.5rem;
+	float: left;
+}
+.user-pic img
+{
+	width:100%;
+	height:100%;
+}
+.user-name
+{
+	float: left;
+	margin-left:0.1rem;
+	height:0.5rem;
+}
+.comment
+{
+	float: right;
+	line-height:0.5rem;
+	font-size:0.18rem;
+	color:#fff;
+}
+.comment p
+{
+	float: left;
+	height:0.5rem;
+}
+.lovers
+{
+	margin-right:0.3rem;
+}
+
+.remark span
+{
+	color:#8dfff6;
+	position:relative;
+}
+.tnum
+{
+	position: relative;
+}
+
+.box
+{
+	width:30%;
+	height:1rem;
+	position:absolute;
+	top:0.5rem;
+	right:0;
+	z-index:10;
+	display: none;
+}
+.box-talk
+{
+	position:relative;
+	width:100%;
+	height:1rem;
+	background:#a7d7f1;
+	border-radius:0.1rem;
+}
+.box-talk input
+{
+	width:100%;
+	height:100%;
+	display: block;
+	outline: none;
+	border:none;
+	border-radius:0.1rem;
+	color:#55A532;
+}
+.angle
+{
+	position:absolute;
+	width:0;
+	height:0;
+	border-left: 0.2rem solid transparent;
+	border-right: 0.2rem solid transparent;
+	border-bottom:0.2rem solid #a7d7f1;
+	top:-0.2rem;
+	left:45%;
+}

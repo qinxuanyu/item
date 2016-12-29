@@ -1,0 +1,28 @@
+
+/*-----------------main content-------------------------*/
+.main-container{z-index: 2;overflow: hidden;}
+.contact-form{
+    margin-bottom: 30px;
+}
+
+.contact-form .form-control{
+	padding: 9px 22px;
+}
+.contact-form textarea{
+    min-height: 200px;
+    resize: vertical;
+}
+.contact-information{
+    list-style: none;
+    margin: 0 0 30px;
+    padding: 0;
+}
+.contact-information li{
+    padding: 10px 0;
+    border-bottom:1px solid #eee;
+}
+.contact-information li span{
+    display: inline-block;
+    width: 70px;
+    font-weight: 500;
+}

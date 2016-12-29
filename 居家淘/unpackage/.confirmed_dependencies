@@ -1,0 +1,82 @@
+{
+	"index.html": {
+		"resources": [
+			"js/base.js",
+			"font/iconfont.css",
+			"css/index.css",
+			"css/mobile-reset.css",
+			"css/swiper-3.4.0.min.css",
+			"img/spirit01.png",
+			"js/jquery-1.9.1.min.js",
+			"js/swiper-3.4.0.min.js",
+			"img/banner01.jpg",
+			"img/nav03.png",
+			"img/nav04.png",
+			"img/nav01.png",
+			"img/nav02.png",
+			"img/nav05.png",
+			"font/iconfont.woff",
+			"img/more.png",
+			"img/fea36ef2514c904f4f45f1975f37f289.png",
+			"img/ad5a317216f9da495b144070ecf1f957.png",
+			"img/bbebb678e9b1177748680f56b68faaeb.png",
+			"img/d8c18953bcb05f0b07d6b48e2d159ace.png",
+			"img/gototop.png",
+			"img/81530e00fd8ba94d5f7d8d0f98559deb.jpg",
+			"img/0b9b30f61346a12b63eaba7da8aef9db.png",
+			"img/44bd533d8a872cb6f8cd5d25547a69c2.jpg",
+			"img/c4c47aaaaddf513eda0e5b520f560485.png",
+			"img/fc292f2e77697ac1aa059f29269a1121.png",
+			"img/4d4ac5fda1503bc35c725f074789590a.png",
+			"img/8e47edc7fbfceb699f2957550e24a3f3.png",
+			"img/f3d196c03f8aac5625faba00d670ee03.jpg",
+			"img/c2050cf8dd0ff2b5e5701f886260ab21.png",
+			"img/beef44d17877e54f9ed04697af305375.jpg",
+			"img/f043d4baf00bed682e459c2697ced6f9.png",
+			"img/5d7c2fea29b7bd505543f73795fb224b.png",
+			"js/index.js",
+			"img/banner03.jpg",
+			"img/banner02.jpg",
+			"css/header.css",
+			"js/header.js",
+			"zhuanti.html",
+			"fenlei.html"
+		],
+		"refer": [
+			"zhuanti.html",
+			"fenlei.html"
+		]
+	},
+	"zhuanti.html": {
+		"resources": [
+			"img/2422f6431d01ffaeb9f5b57f1caa23f4.jpg",
+			"img/44f612d2436e71ae484eadb948985bb5.jpg",
+			"img/77eef5037d9c648713e5f54c605ae26e.jpg",
+			"img/6f0430c2845a90fab3b5cb5045112c13.png",
+			"img/e4043c49e6cb029c700394f80a897538.jpg",
+			"img/e4cb10f973c09fa2b7010197d1c2a495.jpg",
+			"img/5d625a22f54deabe5fa4a80ec5a5000c.png",
+			"css/index-zt.css",
+			"img/spirit01.png",
+			"img/beef44d17877e54f9ed04697af305375.jpg",
+			"js/header.js",
+			"js/swiper-3.4.0.min.js",
+			"css/header.css",
+			"img/gototop.png",
+			"css/mobile-reset.css",
+			"js/base.js",
+			"css/swiper-3.4.0.min.css",
+			"js/jquery-1.9.1.min.js",
+			"index.html"
+		],
+		"refer": [
+			"index.html"
+		]
+	},
+	"fenlei.html": {
+		"resources": [
+			"css/index-fl.css",
+			"img/92357337378cce650797444bc107b0f7.jpg"
+		]
+	}
+}

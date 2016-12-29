@@ -1,0 +1,140 @@
+
+.clients{
+	margin-bottom: 30px;
+}
+.clients .item{
+    line-height: 70px;
+    text-align: center;
+    vertical-align: middle;
+}
+.clients .owl-controls{
+    position: absolute;
+    top: -75px;
+    right: 5px;
+    text-align: center;
+}
+.clients .owl-controls .owl-buttons div{
+    transition: all 0.3s ease-in-out;
+    width: 32px;
+    height: 32px;
+    line-height: 26px;
+    opacity: .9;
+    background: #f55;
+    border-radius: 4px;
+}
+
+
+.skills .title{
+	font-weight: 500;
+    margin-bottom: 10px;
+}
+.skills .title span{
+	float: right;
+}
+.skills .progress{
+	height: 2px;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+.progress>div{
+	visibility: visible;
+    animation-duration: 1.3s;
+    animation-delay: 0.3s;
+    animation-name: fadeInLeft;
+}
+.skills .progress .progress-bar{
+	box-shadow: none;
+    background: #ff5555;
+}
+.team-member .image{
+	margin-bottom: 10px;
+    max-width: 100%;
+    overflow: hidden;
+}
+.team-member .image img{
+	width: 100%;
+    max-width: 100%;
+}
+.team-member .name{
+	margin-bottom: 10px;
+}
+.team-member .post{
+	display: block;
+    margin-bottom: 10px;
+    color: #ff5555;
+}
+.team-member .text{
+	margin-bottom: 10px;
+}
+.social-share li a:hover{
+	color: #fff;
+    background: #ff5555;
+    border-color: #ff5555;
+}
+.social-share{
+    list-style: none;
+    margin: 0 0 30px;
+    padding: 0;
+    display: table;
+    width: 100%;
+}
+.social-share li{
+	display: table-cell;
+    text-align: center;
+}
+.social-share li a{
+	display: block;
+    line-height: 32px;
+    padding: 0 5px;
+    border: solid 1px #eee;
+    border-right-width: 0;
+}
+.clients-carousel{
+	margin-bottom: 30px;
+}
+.owl-carousel{
+	position: relative;
+    width: 100%;
+}
+.owl-carousel .owl-wrapper-outer{
+	overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+.clients-carousel .owl-controls{
+	position: absolute;
+    top: -75px;
+    right: 5px;
+    text-align: center;
+}
+.owl-theme .owl-controls {
+	margin-top: 10px;
+    text-align: center;
+}
+.clients-carousel .client{
+	line-height: 70px;
+    text-align: center;
+    vertical-align: middle;
+}
+.clients-carousel .owl-controls .owl-buttons div{
+	-webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    width: 32px;
+    height: 32px;
+    line-height: 28px;
+    opacity: .9;
+    background: #ff5555;
+}
+.clients-carousel .owl-controls .owl-buttons div i.fa{
+	    font-size: 16px;
+}

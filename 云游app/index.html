@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="css/mobile-reset.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <script type="text/javascript" src="js/base.js"></script>
+    <script src="js/zepto.min.js"></script>
+    <script type="text/javascript" src="js/touch.js"></script>
+</head>
+<body>
+<div class="y-bg-box">	
+	<div class="y-bg-1 father">
+		<div class="y-img-box"><img src="img/yd_03.jpg" alt="" /></div>
+		<div class="y-index">
+			<ul class="clearfix">
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+			</ul>
+		</div>
+	</div>
+	<div class="y-bg-2 father">
+		<div class="y-img-box"><img src="img/yd-2_03.jpg" alt="" /></div>
+		<div class="y-index">
+			<ul class="clearfix">
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+			</ul>
+		</div>
+	</div>
+	<div class="y-bg-3 father">
+		<div class="y-img-box"><img src="img/yd-3_03.jpg" alt="" /></div>
+		<div class="y-index">
+			<ul class="clearfix">
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+			</ul>
+		</div>
+	</div>
+	<div class="y-bg-4 father">
+		<div class="y-img-box"><img src="img/yd-4_03.jpg" alt="" /></div>
+		<div class="y-index">
+			<a href="lead.html">开启云游V4.0</a>
+		</div>
+	</div>
+</div>
+ <script>
+ 	 var num = 0;
+ 	 $("body").on("swipeLeft",function(){
+ 	 	 num++;
+ 	 	 if(num>3)
+ 	 	 num=3;
+ 	 	 left = num*(-25);
+    $(".y-bg-box").css({"transform":"translate("+left+"%)"});
+ 	 })
+ 	  $("body").on("swipeRight",function(){
+ 	 	 num--;
+ 	 	 if(num<0)
+ 	 	 num=3;
+ 	 	 left = num*(-25);
+    $(".y-bg-box").css({"transform":"translate("+left+"%)"});
+ 	 })
+ </script>
+</body>
+</html>

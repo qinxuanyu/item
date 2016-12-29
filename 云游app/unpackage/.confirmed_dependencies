@@ -1,0 +1,175 @@
+{
+	"index.html": {
+		"resources": [
+			"js/base.js",
+			"css/index.css",
+			"font/iconfont.css",
+			"css/mobile-reset.css",
+			"font/iconfont.woff",
+			"img/home_02.jpg",
+			"img/home_10.png",
+			"css/menu.css",
+			"img/home_21.jpg",
+			"img/home_07.png",
+			"img/home_25.jpg",
+			"fenxiang.html",
+			"img/home_12.png",
+			"img/home_19.jpg",
+			"img/home_05.png",
+			"pengyouquan.html",
+			"lead.html",
+			"img/yd-3_03.jpg",
+			"js/zepto.min.js",
+			"img/yd-2_03.jpg",
+			"img/yd-4_03.jpg",
+			"img/yd_03.jpg",
+			"js/touch.js"
+		],
+		"refer": [
+			"fenxiang.html",
+			"pengyouquan.html",
+			"lead.html"
+		]
+	},
+	"fenxiang.html": {
+		"resources": [
+			"img/fx_03.jpg",
+			"fenxiang.html",
+			"css/index-fx.css",
+			"home.html"
+		],
+		"refer": [
+			"fenxiang.html",
+			"home.html"
+		]
+	},
+	"pengyouquan.html": {
+		"resources": [
+			"css/index-pyq.css",
+			"js/waterfall.js",
+			"img/pyq_03.png",
+			"js/index-pyq.js",
+			"img/pyq_03.jpg",
+			"img/pyq_06.jpg",
+			"js/jquery2.1.4.js",
+			"img/pyq_10.jpg",
+			"img/pyq_11.jpg",
+			"wode.html",
+			"fenxiang.html"
+		],
+		"refer": [
+			"wode.html",
+			"fenxiang.html"
+		]
+	},
+	"lead.html": {
+		"resources": [
+			"img/logo_03.png",
+			"img/bgi.jpg",
+			"css/lead.css",
+			"freedomWatch.html",
+			"location.html"
+		],
+		"refer": [
+			"freedomWatch.html",
+			"location.html"
+		]
+	},
+	"freedomWatch.html": {
+		"resources": [
+			"img/user.png",
+			"lead.html",
+			"img/2.jpg",
+			"font/iconfont.woff",
+			"css/freedomWatch.css",
+			"img/1.jpg",
+			"js/jquery-1.9.1.min.js",
+			"img/3.jpg",
+			"img/5.jpg"
+		],
+		"refer": [
+			"lead.html"
+		]
+	},
+	"location.html": {
+		"resources": [
+			"css/location.css",
+			"img/locationbackgroud.jpg",
+			"img/logo.png",
+			"home.html",
+			"register.html",
+			"font/iconfont.woff",
+			"js/jquery-1.9.1.min.js",
+			"lead.html"
+		],
+		"refer": [
+			"home.html",
+			"register.html",
+			"lead.html"
+		]
+	},
+	"mudidi.html": {
+		"resources": [
+			"img/mdd_07.png",
+			"css/swiper-3.4.0.min.css",
+			"img/mdd_11.png",
+			"img/mdd_05.png",
+			"img/mdd_02.jpg",
+			"img/mdd_13.png",
+			"js/swiper-3.4.0.min.js",
+			"img/mdd_09.png",
+			"css/index-mdd.css",
+			"home.html",
+			"fenxiang.html"
+		],
+		"refer": [
+			"home.html",
+			"fenxiang.html"
+		]
+	},
+	"home.html": {
+		"resources": [
+			"mudidi.html",
+			"img/home_10.png",
+			"css/menu.css",
+			"img/home_21.jpg",
+			"img/home_07.png",
+			"img/home_25.jpg",
+			"font/iconfont.css",
+			"css/index-home.css",
+			"font/iconfont.woff",
+			"img/home_12.png",
+			"img/home_02.jpg",
+			"img/home_19.jpg",
+			"img/home_05.png",
+			"fenxiang.html",
+			"pengyouquan.html"
+		],
+		"refer": [
+			"mudidi.html",
+			"fenxiang.html",
+			"pengyouquan.html"
+		]
+	},
+	"register.html": {
+		"resources": [
+			"font/iconfont.woff",
+			"css/iconfont.css",
+			"css/register.css",
+			"location.html"
+		],
+		"refer": [
+			"location.html"
+		]
+	},
+	"wode.html": {
+		"resources": [
+			"pengyouquan.html",
+			"img/wd_02.jpg",
+			"css/index-wd.css"
+		],
+		"refer": [
+			"pengyouquan.html"
+		]
+	}
+}

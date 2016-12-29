@@ -1,0 +1,53 @@
+.cart-text>ul{
+	height: 0.50rem;
+	box-sizing: border-box;
+	padding: 0 0.3rem;
+	padding-top: 0.2rem;
+}
+.cart-text>ul>li{
+	float: left;
+    font-size: 0;
+    width: 33.3333%;
+}
+.cart-text>ul>li:nth-child(2){
+	text-align: center;
+}
+.cart-text>ul>li:nth-child(3){
+	text-align: right;
+}
+.cart-text>ul>li>i{
+	background: url(../img/cart-1.png) no-repeat;
+	background-size: 98%;
+	display: inline-block;
+	width: 0.075rem;
+	height: 0.075rem;
+	position: relative;
+	top: -0.01rem;
+	margin-right: 0.05rem;
+}
+.cart-text>ul>li>span{
+	font-size: 0.18rem;
+	color: #666;
+    left: 0.12rem;
+}
+.cart-con{
+	position: fixed;
+	width: 100%;
+}
+.cart-con>div{
+	margin:2.8rem 0;
+	text-align: center;
+	
+}
+.cart-con-img{
+	background: url(../img/cart-2.png) no-repeat;
+	display: inline-block;
+	vertical-align: middle;
+	width: 1.86rem;
+	height: 1.86rem;
+	background-size: 1.86rem;
+}
+.cart-con p{
+	font-size: 0.18rem;
+	color: #999;
+}

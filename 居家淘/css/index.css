@@ -1,0 +1,348 @@
+.floor
+{
+	width: 7.5rem;
+	margin:  0 auto .2rem;
+	background: #fff;
+}
+.name,.price,.st.desc.title
+{
+	white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.banner
+{
+	width: 7.5rem;
+	margin-top: .92rem auto 0; 
+}
+.banner a
+{
+	display: block;
+}
+.banner img
+{
+	width: 7.5rem;
+	vertical-align: bottom;
+}
+.banner .swiper-pagination span
+{
+	width: .42rem;
+	height: .04rem;
+	margin: 0 .05rem!important;
+	border-radius: 0;
+	background: #fff;
+}
+.nav ul
+{
+	height: 1.82rem;
+	padding: 0 .44rem;
+}
+.nav li
+{
+	width: .58rem;
+	float: left;
+	text-align: center;
+	margin: .46rem  .46rem 0;
+}
+.nav li:nth-child(1)
+{
+	margin-left: 0;
+}
+.nav li:nth-child(5)
+{
+	margin-right: 0;
+}
+.nav img
+{
+	width: .58rem;
+	display: block;
+}
+.nav span
+{
+	font-size: .24rem;
+	display: block;
+	color: #333;
+}
+.floor>.hd
+{
+	height: 1.28rem;
+	text-align: center;
+	font-size: 0;
+}
+.floor>.hd a
+{
+	color: #333;
+}
+.floor>.hd span
+{
+	font-size: .28rem;
+	line-height: 1.28rem;
+}
+.floor>.hd i
+{
+	font-size: .3rem;
+	line-height: 1.28rem;
+}
+.con1 ul
+{
+	height: 5.08rem;
+	position: relative;
+}
+.con1 li
+{
+	width: 50%;
+	overflow: hidden;
+	position: absolute;
+}
+.con1 li:nth-child(1)
+{
+	height: 100%;
+	right: 0;
+}
+.con1 li:nth-child(n+2)
+{
+	height: 50%;
+	left: 0;
+}
+.con1 li:nth-child(3)
+{
+	top: 50%;
+}
+.con1 li img
+{
+	width: 100%;
+}
+.con1 li:nth-child(n+2) img
+{
+	height: 100%;
+}
+.con1 div
+{
+	position: absolute;
+	left: 0;
+	padding: .26rem 0 0 .3rem;
+	font-size: 0;
+}
+.con1 div h4
+{
+	font-size: .26rem;
+	font-weight: 100;
+	color: #333;
+}
+.con1 div .price
+{
+	font-size: .2rem;
+	color: #999;
+}
+.con2
+{
+	padding: 0 .52rem .46rem;
+}
+.con2 li
+{
+	width: 3.05rem;
+	overflow: hidden;
+	margin-bottom: .04rem;
+	float: left;
+}
+.con2 li:nth-child(2n)
+{
+	margin-left: .36rem;
+}
+.con2 img
+{
+	width: 3.05rem;
+	height: 3.05rem;
+	vertical-align: bottom;
+}
+.con2 .name
+{
+	width: 100%;
+	font-size: .22rem;
+	text-align: center;
+	color: #333;
+	margin: -.11rem 0 .14rem;
+}
+.con2 .price
+{
+	font-size: .2rem;
+	text-align: center;
+	color: #b4282d;
+	display: block;
+}
+.con3
+{
+	padding: 0 .21rem .21rem;
+}
+.con3 li
+{
+	border-top: 1px solid #d9d9d9;
+}
+.con3 a
+{
+	display: block;
+	height: 2.66rem;
+	overflow: hidden;
+}
+.con3 .left
+{
+	width: 3.05rem;
+	margin-right: .21rem;
+	float: left;
+}
+.con3 img
+{
+	width: 100%;
+	height: 3.05rem;
+}
+.con3 .right
+{
+	width: 3.6rem;
+	float: left;
+}
+.con3 .name
+{
+	font-size: .28rem;
+	color: #333;
+	line-height: .5rem;
+	padding-top: .5rem;
+}
+.con3 .desc
+{
+	font-size: .26rem;
+	color: #999;
+	line-height: .46rem;
+}
+.con3 .price
+{
+	font-size: .32rem;
+	color: #b4282d;
+	line-height: .56rem;
+}
+.con3 .st
+{
+	font-size: .2rem;
+	color: #999;
+	margin-top: .21rem;
+}
+.con4
+{
+	padding: 0 .3rem .47rem;
+}
+.con4 li
+{
+	padding: 0 .2rem;
+}
+.con4 a
+{
+	display: block;
+	width: 100%;
+	height: 3.9rem;
+	border-radius:4px;
+	overflow: hidden;
+}
+.con4 img
+{
+	width: 100%;
+	height: 100%;
+}
+.con4 .name
+{
+	margin-bottom: .13rem;
+}
+.con4 h4
+{
+	float: left;
+	font-size: .28rem;
+	font-weight: 100;
+	color: #333;
+	margin-right: .21rem;
+}
+.con4 .price
+{
+	float: left;
+	font-size: .24rem;
+	color: #b4282d;
+	margin-top: .04rem;
+}
+.con4 .desc
+{
+	font-size: .18rem;
+	color: #999;
+}
+.floor .title
+{
+	font-size: .28rem;
+	font-weight: 400;
+	color: #333;
+	line-height: 1.26rem;
+	text-align: center;
+}
+.con5 li
+{
+	width: 50%;
+	float: left;
+	padding-bottom: .33rem;
+	border-top: 1px solid rgba(0,0,0,.15);
+	text-align: center;
+	position: relative;
+	overflow: hidden;
+}
+.con5 li:nth-child(2n)
+{
+	border-left: 1px solid rgba(0,0,0,.15);
+}
+.con5 .new-item
+{
+	width: .7rem;
+	font-size: .2rem;
+	border-radius: 2px;
+	background: #cdb694;
+	color: #fff;
+	position: absolute;
+	top: .16rem;
+	left: .16rem;
+}
+.con5 img
+{
+	width: 3.75rem;
+	height: 3.2rem;
+	padding: .15rem .3rem 0;
+	vertical-align: bottom;
+}
+.con5 .name
+{
+	font-size: .24rem;
+	color: #333;
+	margin: .11rem 0 .21rem;
+}
+.con5 .price
+{
+	font-size: .26rem;
+	color: #b4282d;
+}
+.con5 .st
+{
+	font-size: .2rem;
+	color: #999;
+	padding-top: .07rem;
+}
+.con5 .more-item
+{
+	display: block;
+	padding: 1.3rem 0 1.67rem;
+	font-size: 0;
+}
+.con5 .more-item p
+{
+	font-size: .28rem;
+	color: #333;
+	margin-bottom: .43rem;
+}
+.con5 .more-item div
+{
+	display: inline-block;
+	width: .7rem;
+	height: .7rem;
+	background: url(../img/more.png) no-repeat;
+	background-size: .62rem;
+}

@@ -1,0 +1,87 @@
+/*---------------banner----------------------*/
+.slider .owl-controls{position: absolute;bottom: 10px;left: 0;right:0;margin:auto;text-align: center;}
+.slider .owl-controls .owl-page{line-height: 24px;vertical-align: middle;}
+.slider .owl-controls .owl-pagination .owl-page span{display: inline-block;transition: all 0.3s ease-in-out;opacity: .7;
+background-color: transparent;border:1px solid #fff;}
+.slider .owl-controls .owl-pagination .owl-page.active span{background-color: #fff;}
+.slider .item{height:500px;width:100%;max-width:100%;}
+.mask::before{display: block;content: '';position: absolute;top:0;left:0;width:100%;height:100%;opacity: 0.6;z-index: 0;background-color: #000;}
+
+/*-----------------main content-----------------*/
+/*--------------features------------------*/
+.feature{margin-bottom: 30px;text-align: center;}
+.feature .icon{border-radius: 50%;display: block;width:96px;height:96px;line-height: 96px;font-size: 32px;margin:0 auto 30px;color: #FF5555;
+border:1px solid #FF5555;text-align: center;transition: all; 0.3s ease-in-out;}
+.feature:hover .icon{background-color: #FF5555;color: #fff;}
+.feature:hover h3{color: #FF5555;}
+
+/*---------------------project--------------------*/
+.project-item{transition: all 0.5s ease-in-out;display: block;margin-bottom: 30px;background-color: #fff;}
+.gallery-image{margin-bottom: 10px;transition: all 0.5s ease-in-out;position: relative;z-index: 0;
+width:100%;overflow: hidden;background: rgba(255,255,255,0.8);}
+.gallery-image img{width:100%;transition: all 0.5s ease-in-out;}
+.project-item .info{padding:5px 80px 5px 8px;position: relative;}
+.project-item .info .title{transition: all 0.5s ease-in-out;margin-bottom: 5px;}
+.project-item .info .description{transition: all 0.5s ease-in-out;margin-bottom: 10px;color: #777;}
+.project-item .info .social{position: absolute;transition: all 0.5s ease-in-out;right:10px;bottom:15px;color: #777;}
+.project-item:hover{background-color: #FF5555;color: #fff;}
+.project-item:hover .title{color: #fff;}
+.project-item:hover .info .description,.project-item:hover .info .social{color: #fff;}
+.project-item:hover .gallery-image img{transform: scale(1.2);opacity: 0.6;}
+.gallery-image .cover{position: absolute;z-index: 100;width:100%;height:100%;top:0;left:0}
+.gallery-image .circle{width:50px;height:50px;position: relative;margin:0 auto;margin-top: -25px;border-radius: 50%;opacity: 0;
+background-color: #FF5555;top:20%;text-align: center;line-height: 50px;color: #fff;font-size: 24px;transition:all 0.3s ease-in-out;}
+/*.gallery-image:hover .cover{visibility: visible;opacity: 0.2;}*/
+.gallery-image:hover .circle{opacity: 1;top:50%;}
+
+
+
+
+/*-------------------more features-----------------*/
+.more-features{margin-bottom: 30px;transition: all 0.3s ease-in-out;}
+.media .icon{font-size: 32px;margin-right: 15px;}
+#more-features .title,#more-features .description{margin-bottom: 10px;}
+#more-features .more-features:hover .icon{color: #ff5555;}
+#more-features .more-features:hover .title{color: #ff5555;}
+
+
+/*-------------status----------------*/
+.stat *{transition: all 0.3s ease-in-out;}
+.stat .data{color: #FF5555;}
+.stat .title{color: #fff;margin-bottom: 0;}
+.stat .icon{display: inline-block;padding:32px;border:1px solid #fff;border-radius:50%;
+font-size: 32px;margin:0 auto 30px;color: #fff;}
+.stat:hover .icon{border-color: #ff5555;color: #FF5555;}
+.stat:hover .title{color: #FF5555;}
+.stat:hover .data{color: #fff;}
+
+
+/*-------------best-features--------------*/
+.list{margin:20px 10px;}
+.list li{padding-left: 30px;padding-bottom: 20px;border-left:1px solid #F3F3F3;}
+.list li::before{display: block;content: '';position: absolute;left:18px;
+width:16px;height:16px;background-color: #fff;border: 1px solid #FF5555;z-index: 1;border-radius: 50%;}
+.list li:hover::before{background-color: #FF5555;}
+.testimonials-carousel .testimonial{margin-right:10px;}
+.testimonials-carousel .testimonial .content{margin-bottom: 10px;background-color: #fff;}
+.testimonials-carousel .testimonial .author{margin-bottom: 5px;}
+.testimonials-carousel .testimonial .company{color: #FF5555}
+.testimonials-carousel .owl-controls{position: absolute;top: -100px;right:5px;text-align: center;}
+.testimonials-carousel .owl-controls .owl-buttons div{border-radius: 3px;transition: all .3s ease-in-out;
+width:32px;height:32px;line-height: 28px;opacity: .8;background-color: #FF5555;}
+.testimonials-carousel .owl-controls .owl-buttons div:hover{opacity: 1;}
+/*---------------------contact-------------------*/
+.contact{padding-top: 100px;padding-bottom: 100px;}
+.section-contact{margin-top: 100px;}
+.contact-form textarea{min-height: 200px;}
+
+
+
+
+
+
+
+
+
+
+

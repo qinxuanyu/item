@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		 <meta name="viewport" content="width=device-width,initial-scale=1.0, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0">
+		<title></title>
+		<link rel="stylesheet" href="css/mobile-reset.css" />
+		<link rel="stylesheet" href="css/iconfont.css" />
+        <link rel="stylesheet" href="css/register.css" />
+        <script type="text/javascript" src="js/base.js"></script>
+        <script src="js/jquery-1.9.1.min.js"></script>
+	</head>
+	<body>
+		<header class="headre clearfix">
+			<a href="location.html"><i class="iconfont">&#xe65c;</i></a>
+			<span>注册</span>
+		</header>
+		<div class="logo">
+			<img src="img/logo_03.png" alt="" />
+			<span>下一站</span>
+		</div>
+		<div class="text">
+			<div class="text-phone clearfix">
+				<i class="iconfont">&#xe63f;</i>
+				<input type="text" placeholder="手机号码" class="text-input"/>
+			</div>
+			<div class="passwrod clearfix">
+				<input type="password" />
+			    <button class="p-btn">获取验证码</button>
+			</div>
+		</div>
+		<div class="offirm">
+			<input type="checkbox" id="checkbox_a1" class="offirm-zd"/>
+			<label for="checkbox_a1"></label>
+			<span>我同意协议服务</span>
+		</div>
+		<div class="deal">
+			<span>用户隐私协议</span>
+		</div>
+		<div class="bgI"><img src="img/locationbackgroud.jpg" alt="" /></div>
+	</body>
+	<script>
+		setTimeout(function(){  
+	            document.getElementsByTagName('body')[0].style.height = window.innerHeight+'px';  
+	        },20);
+	var b = true;
+	var e = true;
+	$("label").click(function(){
+		e=false;
+	})
+	
+		$(".p-btn").click(function(){
+			if(b){
+				
+				var a = $(".text-input").val();	
+				var patt = /^1(3|4|5|7|8)\d{9}$/;
+				var num = 60;
+				var timar = null;
+			    if(!patt.test(a))
+				{
+					$(".text-input").val("请输入手机号码");
+				}
+				else{
+						if(!e)
+						{
+							b=false;
+					       timar =	setInterval(function(){
+								num--;
+								$(".p-btn").text(num+"秒后重发");
+								if(num==0)
+								{
+									$(".p-btn").text("重发");
+									clearInterval(timar);
+									b=true;
+								}
+						    },1000)
+					    }
+						else{
+							$(".p-btn").text("未同意协议");
+							
+						}
+					
+			        }
+				
+				}
+			})
+		    
+	
+	
+		
+	</script>
+</html>

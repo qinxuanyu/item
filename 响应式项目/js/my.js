@@ -1,0 +1,10 @@
+	$("#nav-btn").click(function(){
+		$(".collapse").css("visibility","visible").slideToggle(300);
+	});
+//滚动隐藏、显示导航条上面的信息
+$(window).scroll(function(){
+	if($(window).scrollTop()>32){$(".information").stop().slideUp(300)}
+	if($(window).scrollTop()<32){$(".information").stop().slideDown(300)}
+	if($(window).scrollTop()>10){$(".navbar").removeClass("affix-top").addClass("affix")};
+	if($(window).scrollTop()<10){$(".navbar").removeClass("affix").addClass("affix-top")};
+})

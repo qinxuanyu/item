@@ -1,0 +1,28 @@
+.menu{
+	width: 7.5rem;
+	background: #f2f2f2;
+	font-size: 0;
+	position: fixed;
+	bottom: 0;
+}
+.menu li{
+	width: 20%;
+	height: .9rem;
+	display: inline-block;
+	text-align: center;
+}
+.menu i{
+	font-size: .5rem;
+	color: #5e5e5e;
+}
+.menu p{
+	font-size: .18rem;
+	color: #5e5e5e;
+}
+.menu li:nth-child(1) i{
+	font-size: .52rem;
+	font-weight: bold;
+}
+.menu .cho i,.menu .cho p{
+	color: #4aace3;
+}

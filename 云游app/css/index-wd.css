@@ -1,0 +1,107 @@
+.head{
+	width: 7.5rem;
+	height: 1.14rem;
+	font-size: 0;
+	color: #fff;
+	line-height: 1.14rem;
+	text-align: center;
+	position: absolute;
+	top: 0;
+	z-index: 9;
+}
+.head a:nth-child(1){
+	position: absolute;
+	top: 0;
+	left: .1rem;
+}
+.head a:nth-child(2){
+	position: absolute;
+	top: 0;
+	right: 1rem;
+}
+.head a:nth-child(2) i{
+	font-weight: bold;
+}
+.head a:nth-child(3){
+	position: absolute;
+	top: 0;
+	right: .24rem;
+}
+.head i{
+	font-size: .34rem;
+	color: #fff;
+}
+.head h3{
+	width: 100%;
+	font-size: .34rem;
+	font-weight: normal;
+}
+.banner{
+	width: 7.5rem;
+	margin: 0 auto;
+	position: relative;
+}
+.banner img{
+	width: 100%;
+	vertical-align: bottom;
+}
+.user{
+	width: 100%;
+	text-align: center;
+	font-size: 0;
+	position: absolute;
+	top: 1.4rem;
+}
+.user img{
+	width: 1.2rem;
+	border-radius: 50%;
+	vertical-align: bottom;
+}
+.user .name{
+	font-size: .24rem;
+	color: #fff;
+}
+.user .name span{
+	font-size: .18rem;
+	margin-left: .08rem;
+	background: #22a9f3;
+	padding: .02rem .08rem 0;
+	border-radius: .04rem;
+}
+.user ul{
+	margin-top: .3rem;
+}
+.user li{
+	display: inline-block;
+	font-size: .2rem;
+	color: #fff;
+	padding: 0 .2rem;
+}
+.user li:nth-child(n+2){
+	border-left: 1px solid #fff;
+}
+.con{
+	width: 7.5rem;
+	margin: 0 auto 1.2rem;
+	border-radius: .06rem;
+	overflow: hidden;
+	opacity: .8;
+}
+.con-more{
+	width: 100%;
+	height: .7rem;
+	font-size: 0;
+	line-height: .7rem;
+	background: #fff;
+}
+.con-more span{
+	font-size: .24rem;
+	color: #5e5e5e;
+	padding-left: .2rem;
+}
+.con-more i{
+	font-size: .3rem;
+	color: #bbbbbb;
+	float: right;
+	padding-right: .2rem;
+}

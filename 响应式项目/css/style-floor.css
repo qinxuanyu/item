@@ -1,0 +1,83 @@
+/*------------------import---------------------*/
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,300,600,500);
+@import '../css/bootstrap.min.css';
+@import '../css/bootstrap-theme.min.css';
+@import '../css/font-awesome.min.css';
+@import '../css/owl.carousel.css';
+@import '../css/owl.theme.css';
+@import '../css/owl.transitions.css';
+@import '../css/magnific-popup.css';
+@import '../css/elegant-icons.css';
+@import '../css/animate.css';
+
+/*------------------main style-----------------*/
+* {
+  outline: none !important;
+}
+html {
+  height: 100%;
+  min-height: 100%;
+}
+body {
+  height: 100%;
+  min-height: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  color: #777;
+  font-size: 13px;
+  font-family: 'Raleway', sans-serif;
+  background: #fff;
+}
+h1,h2,h3,h4,h5,h6{color: #333;font-weight: 400;margin:0 0 30px;}
+a{color: #FF5555;font-weight: 500;transition:all 0.2s ease-in-out;}
+a:hover,a:focus{color: #777;text-decoration: none;}
+p{margin:0 0 030px;}
+
+.btn{padding:8px 20px;background-color: #FF5555;border:2px solid transparent;color: #fff;
+display: inline-block;font-size: 14px;font-weight: 400;line-height:1.42;cursor: pointer;text-align: center;}
+.btn:hover{background-color: transparent;color: #000;border-color: #000;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------------responsive----------------*/
+@media screen and (max-width:991px)
+{
+	
+}
+@media screen and (max-width:667px)
+{
+	
+}
+
+@media screen and (max-width:480px)
+{
+	
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,75 @@
+body{
+	background: #fff;
+}
+.g-row{
+	width: 5.4rem;
+	margin: 0 auto;
+}
+.g-row-sea{
+	padding: 0.1rem 0;
+}
+.g-row-sea form{
+	width: 80%;
+	border-radius: 0.02rem;
+	float: left;
+}
+.g-row-sea>div{
+	font-size: 0.2rem;
+	float: right;
+	height: 0.4rem;
+	line-height: .4rem;
+}
+.g-row-sea>div a{
+	color: #333;
+}
+.g-row-input:before{
+	content: ' ';
+    margin-right: .22222rem;
+    display: inline-block;
+    vertical-align: middle;
+    background-image: url(../img/search.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: .21rem;
+    height: .21rem;
+}
+.g-row-input {
+	font-size:0;
+	overflow: hidden;
+	padding: 0 0.15rem;
+	background-color: #f4f4f4;
+	line-height: 0.4rem;
+}
+.g-row-input input{
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 0.2rem;
+	border: none;
+	box-shadow:none;
+	background: transparent;
+	outline:none;
+}
+.hot-box{
+	padding: 0 .22rem .22rem;
+	font-size: 12px;
+}
+.hot-box header{
+	height: .67rem;
+    font-size: .2rem;
+    color: #999;
+    
+}
+.hot-box header h3{
+	line-height: .67rem;
+	font-weight: normal;
+}
+.hot-box nav>a{
+	border-radius:2px ;
+	float: left;
+    padding: 0 .115rem;
+    margin-right: .24rem;
+    margin-bottom: .24rem;
+    line-height: .36rem;
+    border: 1px solid #999;
+    color: #333;
+}

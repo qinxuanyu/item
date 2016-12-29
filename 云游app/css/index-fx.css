@@ -1,0 +1,147 @@
+body{
+	background: #75c7f4;
+}
+.head{
+	width: 7.5rem;
+	height: 1.14rem;
+	font-size: 0;
+	color: #fff;
+	background: #3ea5de;
+	line-height: 1.14rem;
+	text-align: center;
+	position: relative;
+}
+.head a{
+	position: absolute;
+	top: 0;
+	left: .1rem;
+}
+.head i{
+	font-size: .34rem;
+	color: #fff;
+}
+.head h3{
+	width: 100%;
+	font-size: .34rem;
+	font-weight: normal;
+}
+.fx{
+	width: 7.5rem;
+	padding: .2rem .24rem 0;
+	position: relative;
+	font-size: 0;
+}
+.fx .btn{
+	width: .76rem;
+	height: .34rem;
+	font-size: .2rem;
+	color: #fff;
+	line-height: .4rem;
+	text-align: center;
+	background: #02ad1f;
+	border-radius: .06rem;
+	border: 0;
+	position: absolute;
+	top: -.8rem;
+	right: .24rem;
+}
+.fx-con{
+	max-width: 100%;
+	min-width: 100%;
+	height: 3.6rem;
+	font-size: .24rem;
+	border: 0;
+	border-radius:.06rem .06rem 0 0;
+	padding: .2rem;
+	resize:none
+}
+.img{
+	width: 100%;
+	position: absolute;
+	font-size: 0;
+	bottom: .1rem;
+	left: .4rem;
+}
+.img img{
+	width: 1rem;
+	border-radius: .06rem;
+	vertical-align: bottom;
+	margin-left: .1rem;
+}
+.img img:nth-child(1){
+	margin-left: 0;
+}
+.img .file{
+	width: 1rem;
+	height: 1rem;
+	border: 1px solid #dadada;
+	border-radius: .06rem;
+	position: relative;
+	display: inline-block;
+	text-align: center;
+	margin-left: .1rem;
+}
+.img .file i{
+	font-size: .5rem;
+	line-height: 1rem;
+	color: #bbbbbb;
+	padding-left: .25rem;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.img input{
+	display: inline-block;
+	width: 1rem;
+	height: 1rem;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 9;
+	opacity: 0;
+}
+.fix,.quanxian{
+	width: 7.5rem;
+	padding: 0 .24rem;
+}
+.fix>div,.quanxian>div{
+	width: 100%;
+	height: .7rem;
+	font-size: 0;
+	line-height: .7rem;
+	border-radius: 0 0 .06rem .06rem;
+	background: #fff;
+}
+.fix span,.quanxian span{
+	font-size: .24rem;
+	color: #5e5e5e;
+	padding-left: .2rem;
+}
+.fix i,.quanxian i{
+	font-size: .3rem;
+	color: #bbbbbb;
+	float: right;
+	padding-right: .2rem;
+}
+.quanxian{
+	margin-top: .28rem;
+}
+.quanxian>div{
+	border-radius: .06rem;
+}
+.shejiao{
+	font-size: 0;
+	margin: .38rem 0 0 .24rem;
+}
+.shejiao i{
+	display: inline-block;
+	width: .56rem;
+	height: .56rem;
+	font-size: .4rem;
+	line-height: .52rem;
+	text-align: center;
+	color: #cdebfb;
+	border: 1px solid #cdebfb;
+	border-radius: 50%;
+	margin-right: .25rem;
+}

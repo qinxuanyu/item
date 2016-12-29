@@ -1,0 +1,57 @@
+body,html{
+	width: 100%;
+	height: 100%;
+}
+body{
+	background: url(../img/bgi.jpg);
+	background-size: 100%;
+	overflow: hidden;
+	position: relative;
+}
+.logo{
+	width: 1.48rem;
+	margin: 0 auto;
+	position: absolute;
+	top: 2.43rem;
+	left: 50%;
+	margin-left: -.74rem;
+	
+}
+.logo img{
+	width: 1.48rem;
+	height: .92rem;
+}
+.logo span{
+	font-size: .45rem;
+	color: #fff;
+	display: block;
+}
+.btn{
+	position: absolute;
+	bottom: 3rem;
+	left: 50%;
+	margin-left: -1.84rem;
+}
+.btn div{
+	width: 3.68rem;
+	height: .82rem;
+	border-radius: .41rem .41rem;
+	border: 1px solid #fff;
+	text-align: center;
+}
+.btn div a{
+	display: block;
+	font-size: .4rem;
+	line-height: .82rem;
+	
+}
+.btn .gr-t{
+	border: 1px solid #00ff9c;
+	margin-bottom: .5rem;
+}
+.btn .gr-t a{
+	color: #00ff9c;
+}
+.btn .wr-t a{
+	color: #fff;
+}
